@@ -1,0 +1,152 @@
+from product.http
+
+Testing started at 10:57 pm ...
+HTTP/1.1 404 Not Found
+Server: nginx/1.18.0 (Ubuntu)
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Wed, 05 Feb 2025 09:57:48 GMT
+Access-Control-Allow-Origin: *
+
+Response file saved.
+> 2025-02-05T225748.404.json
+
+Response code: 404 (Not Found); Time: 22ms (22 ms); Content length: 2 bytes (2 B)
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Wed, 05 Feb 2025 09:57:48 GMT
+Access-Control-Allow-Origin: *
+
+Response file saved.
+> 2025-02-05T225748.200.json
+{
+  "data": {
+    "id": 2,
+    "name": "Crystal Kautzer",
+    "info": "Quidem illo quod qui molestias voluptatem. Et omnis itaque voluptatibus necessitatibus eveniet sit rem. Aut earum ratione aliquam et dolor nisi beatae. Quasi tenetur eligendi autem dolores sequi dicta."
+  }
+}
+
+Response code: 200 (OK); Time: 22ms (22 ms); Content length: 253 bytes (253 B)
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Wed, 05 Feb 2025 09:57:48 GMT
+Access-Control-Allow-Origin: *
+
+Response file saved.
+> 2025-02-05T225748-1.200.json
+{
+  "data": [
+    {
+      "id": 2,
+      "name": "Crystal Kautzer",
+      "info": "Quidem illo quod qui molestias voluptatem. Et omnis itaque voluptatibus necessitatibus eveniet sit rem. Aut earum ratione aliquam et dolor nisi beatae. Quasi tenetur eligendi autem dolores sequi dicta."
+    },
+    {
+      "id": 3,
+      "name": "Josh Steuber",
+      "info": "Eligendi molestiae voluptatem laborum amet ipsum possimus. Quo beatae cumque non impedit nihil et sint. Eum iusto totam illum hic dolor molestias eaque est. Tempora hic rem aperiam vel tempora."
+    },
+    {
+      "id": 4,
+      "name": "Herminia Veum Sr.",
+      "info": "Vel qui nam error distinctio nostrum dolores. Quos velit aliquam quis suscipit et non. Qui qui placeat accusantium iusto dolorem pariatur rerum. Perspiciatis eius repellat qui error deserunt."
+    },
+    {
+      "id": 5,
+      "name": "Mrs. Taryn Legros DDS",
+      "info": "Ad illo rerum asperiores itaque consequatur deleniti in. Deserunt optio distinctio temporibus explicabo et perspiciatis. Fuga occaecati non incidunt et non. Voluptas aut hic sit ipsa aperiam et ipsam."
+    },
+    {
+      "id": 6,
+      "name": "Alena Daugherty",
+      "info": "Ullam aut quia quasi dolore ducimus qui. Mollitia excepturi voluptas aut voluptatem quis. Voluptatem officiis perspiciatis nisi blanditiis. Officia cupiditate tempore quasi nobis vitae cum."
+    },
+    {
+      "id": 7,
+      "name": "Garrett Kunde",
+      "info": "Ipsum ea qui eum eius est. Iusto quia nemo sed repellat repellat. Aut quia dolore praesentium et mollitia eaque deserunt."
+    },
+    {
+      "id": 8,
+      "name": "Edwin Dietrich",
+      "info": "Inventore facilis quod quaerat natus quo aut. A iste voluptates esse voluptatem. Laborum et ut cum qui totam. Dignissimos aut maxime voluptas eum."
+    },
+    {
+      "id": 9,
+      "name": "Anjali Greenholt I",
+      "info": "Dolorem omnis dolores quis sint quisquam quia nisi. Quam ex qui odio quibusdam qui. Ullam fuga quidem voluptatem similique quos ipsum dignissimos. Similique mollitia iste ex."
+    },
+    {
+      "id": 10,
+      "name": "Rico Connelly",
+      "info": "Qui qui provident qui adipisci laboriosam illo. Delectus officia vero sit adipisci eligendi et cupiditate."
+    },
+    {
+      "id": 11,
+      "name": "Roberto Gerlach",
+      "info": "Ab aliquid aspernatur laboriosam qui. Animi est beatae id aliquam. Et sequi vitae rem et ut qui voluptas adipisci. Dolor cumque aut tenetur esse corporis enim."
+    }
+  ],
+  "links": {
+    "first": "http:\/\/laravel.test\/api\/products?page=1",
+    "last": null,
+    "prev": null,
+    "next": "http:\/\/laravel.test\/api\/products?page=2"
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "path": "http:\/\/laravel.test\/api\/products",
+    "per_page": 10,
+    "to": 10
+  }
+}
+
+Response code: 200 (OK); Time: 26ms (26 ms); Content length: 2379 bytes (2.38 kB)
+HTTP/1.1 403 Forbidden
+Server: nginx/1.18.0 (Ubuntu)
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Wed, 05 Feb 2025 09:57:48 GMT
+Access-Control-Allow-Origin: *
+
+Response file saved.
+> 2025-02-05T225748.403.json
+
+Response code: 403 (Forbidden); Time: 26ms (26 ms); Content length: 9943 bytes (9.94 kB)
+HTTP/1.1 403 Forbidden
+Server: nginx/1.18.0 (Ubuntu)
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Wed, 05 Feb 2025 09:57:48 GMT
+Access-Control-Allow-Origin: *
+
+Response file saved.
+> 2025-02-05T225748-1.403.json
+
+Response code: 403 (Forbidden); Time: 24ms (24 ms); Content length: 9943 bytes (9.94 kB)
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0 (Ubuntu)
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Wed, 05 Feb 2025 09:57:48 GMT
+Access-Control-Allow-Origin: *
+
+<Response body is empty>
+
+Response code: 204 (No Content); Time: 33ms (33 ms); Content length: 0 bytes (0 B)

@@ -1,0 +1,32 @@
+### TODO need to use bearer token auth via laravel sanctum
+### show, 404
+GET http://laravel.test/api/products/0
+
+### show OK
+GET http://laravel.test/api/products/2
+
+### index OK
+GET http://laravel.test/api/products
+
+### store 201 TODO authenticate
+POST http://laravel.test/api/products
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "New Product",
+    "info": "This is a new product"
+}
+
+### update TODO authenticate
+PUT http://laravel.test/api/products/2
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Updated Product",
+    "info": "This is an updated product"
+}
+
+### delete 204 TODO authenticate
+DELETE http://laravel.test/api/products/3
