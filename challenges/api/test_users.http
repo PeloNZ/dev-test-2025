@@ -1,0 +1,1 @@
+GET http://homestead.test/public/impactlab/api/users.php?id=1

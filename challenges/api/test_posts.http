@@ -1,0 +1,19 @@
+# fails
+POST http://homestead.test/public/impactlab/api/posts.php
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+###
+
+# passes
+POST http://homestead.test/public/impactlab/api/posts.php
+Content-Type: application/json
+
+{
+"title": "fast times in tahoe",
+"content": "they say that absence makes the heart grow fonder but I doubt it, I really doubt it playing ping pong over oceans, messing with emotions messing with my head..."
+}
