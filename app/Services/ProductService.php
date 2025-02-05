@@ -49,11 +49,8 @@ class ProductService
         return $product ? new ProductDto($product->toArray()) : null;
     }
 
-    public function deleteProduct(int $id): ?ProductDto
+    public function deleteProduct(int $id): bool
     {
-        if (!$this->productRepository->deleteProduct($id)) {
-            return null;
-        }
-        return $this->getProductById($id);
+        return $this->productRepository->deleteProduct($id);
     }
 }
